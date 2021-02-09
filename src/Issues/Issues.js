@@ -25,9 +25,8 @@ function Issues (){
                 <td>[Region]</td>
                 <td>Cell</td>
                 <td>
-                
                   <div className="medium"> Medium</div>              
-                   </td>
+                </td>
               </tr>
               <tr className="borderb">
                 <td className="pinkn"><u><b>100283</b></u></td>
@@ -61,7 +60,6 @@ function Issues (){
           </div>
            
         );
-    
 }
 
 export default Issues;

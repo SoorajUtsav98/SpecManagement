@@ -2,25 +2,18 @@ import "../Styles/styles.css";
 import curve from "../assets/images/curve.png";
 function CellFrequency (){
  
-
-        return(
-          
-            <div className="jasontable" onLoad={()=>jason1()}>
-
-            
-            <div className="cellFrequency">
-            <h3 className="title">Cell Frequency</h3>
-            <div className="curveleft">
-              <div>
-                <img className="curve" src={curve} alt="curve" />
-              </div>
-            
-          
-            </div>
-          </div>
-          </div>
-        );
-    
+  return(
+    <div className="jasontable" onLoad={()=>jason1()}>
+       <div className="cellFrequency">
+      <h3 className="title">Cell Frequency</h3>
+       <div className="curveleft">
+          <div>
+            <img className="curve" src={curve} alt="curve" />
+         </div>
+       </div>
+       </div>
+    </div>
+  );
 }
 
 function jason1() {

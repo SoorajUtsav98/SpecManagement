@@ -2,10 +2,8 @@ import "../../Styles/styles.css";
 
 function Communication (props){
 
-    
         return(
             <div className="communication">
-
                 <div className="card">
                     <div className="card-header">
                         <img className="card-image" src={props.image} alt="ie" />
@@ -15,7 +13,6 @@ function Communication (props){
                     <div className="card-content">
                         <p className="main-card-content">
                        {props.content}
-
                         </p>
                         <div className="bottomcon">
                              <span className="status">{props.status}</span>
@@ -26,8 +23,6 @@ function Communication (props){
              </div>
 
         );
-    
-    
 }
 
 export default Communication;
