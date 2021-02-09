@@ -1,0 +1,102 @@
+.header {
+    display: inline-flex;
+    width: 100%;
+    height: auto;
+    padding: 25px 0px 5px 0px;
+    font-weight: bold;
+    font-size: 25px;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .hamimg {
+    height: 25px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+    }
+    
+    /*side panels*/
+    .hamburger  {
+        display:block;
+        width: 200px;
+        position: absolute;
+        z-index: 1;
+        height: 500px;
+        background-color: #974747;
+        overflow-x: hidden;
+        transition: 0.5s;
+        left:0px;
+        transform: translate(-200px);
+        
+    }
+      
+    .hamburger a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition:0.5s;
+    }
+      
+    .hamburger .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+
+    .show_sidepanel{
+       display:block;
+       transform:translate(0px);
+       transition: 0.5s;
+    
+    }
+
+    .spectrum{
+        color: #e20074;
+    }   
+      
+    .icon {
+        width: 25px;
+        height: auto;
+        padding: 0 20px;
+        cursor: pointer;
+    }
+      
+    .icon11 {
+        width: 25px;
+        height: auto;
+        padding: 0 20px 0 0;
+        cursor: pointer;
+    }      
+
+
+    .arrow-up {
+        width: 0; 
+        height: 0; 
+        border-left: 15px solid transparent;
+        border-right: 15px solid transparent;
+        border-bottom: 15px solid darkslategrey;
+        margin-left: 68px;
+      display: none;
+    }
+
+    
+.dropdown{
+    width:150px;
+    height: 200px;
+    background-color: rgb(8, 20, 20);
+    transition: 0.3s;
+    position: absolute;
+    right: 10px;
+    z-index: 1;
+    display: none;
+  }
+
+.mod2{display: flex;}    
+    

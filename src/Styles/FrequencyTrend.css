@@ -1,0 +1,24 @@
+.frequencyTrend .title{
+    padding-top: 15px;
+    margin: 0;
+    margin-left: 17px;
+    }
+
+    .frequencyTrend {
+
+
+        background-color: white;
+        border-radius: 10px;
+      
+       
+        /* box-shadow: 1px 4px 3px; */
+      }
+
+      .overview ,.cellFrequency, .issues, .frequencyTrend{
+        margin: 10px 10px;
+      }
+
+      .graph{
+ 
+        margin: 17px;
+      }

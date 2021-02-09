@@ -1,0 +1,28 @@
+.issues {
+
+
+    background-color: white;
+    
+    border-radius: 10px;
+    display: grid;
+    width: 100%;
+    
+  }
+  
+  .issues td {
+    padding: 15px 10px;
+  }
+
+  .title{
+    font-size: 16px;
+    
+    }
+
+    .issuesborder{
+    margin-bottom: 15px;
+    padding-left: 6px;
+        }
+
+    .pinkn{
+    color: #FA1186;
+    }
