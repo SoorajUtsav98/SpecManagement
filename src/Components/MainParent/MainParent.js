@@ -1,5 +1,5 @@
-import "../Styles/styles.css";
-import Sidebar from "../Sidebar/Sidebar";
+import "../../Styles/styles.css";
+import Sidebar from "../../Action/Sidebar/Sidebar";
 import MainSection from "../MainSection/MainSection";
 
 function MainParent() {

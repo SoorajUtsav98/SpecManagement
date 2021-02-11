@@ -1,5 +1,5 @@
-import "../Styles/FrequencyTrend.css";
-import freqgraph from "../assets/images/freqgraph.png";
+import "../../Styles/styles.css";
+import freqgraph from "../../assets/images/freqgraph.png";
 function FrequencyTrend (){
         return(
           <div className="frequencyTrend">

@@ -1,12 +1,12 @@
-import "../Styles/Sidebar.css";
-import layout from "../assets/images/layout.png";
-import pie from "../assets/images/pie.png";
-import ticket from "../assets/images/ticket.png";
-import setting from "../assets/images/setting.png";
-import layout1 from "../assets/images/layout1.png";
-import pie1 from "../assets/images/pie1.png";
-import ticket1 from "../assets/images/ticket1.png";
-import setting1 from "../assets/images/setting1.png";
+import "../../Styles/Sidebar.css";
+import layout from "../../assets/images/layout.png";
+import pie from "../../assets/images/pie.png";
+import ticket from "../../assets/images/ticket.png";
+import setting from "../../assets/images/setting.png";
+import layout1 from "../../assets/images/layout1.png";
+import pie1 from "../../assets/images/pie1.png";
+import ticket1 from "../../assets/images/ticket1.png";
+import setting1 from "../../assets/images/setting1.png";
 import {useState} from "react";
 
 const Sidebar = () => {

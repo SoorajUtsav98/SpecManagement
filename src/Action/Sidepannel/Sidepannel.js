@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import hamburger from "../assets/images/hamburger.jpg";
+import hamburger from "../../assets/images/hamburger.jpg";
 
 const Sidepannel = () => {
 const [open,setOpen] = useState(["hamburger"]);

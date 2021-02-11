@@ -1,4 +1,4 @@
-import "../Styles/styles.css";
+import "../../Styles/styles.css";
 
 function Overview() {
   

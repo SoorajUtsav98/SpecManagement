@@ -1,5 +1,5 @@
 import './App.css';
-import DisplayPage from "./DisplayPage/DisplayPage";
+import DisplayPage from "./Components/DisplayPage/DisplayPage";
 
 function App() {
   return (

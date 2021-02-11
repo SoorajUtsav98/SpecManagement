@@ -1,5 +1,5 @@
-import "../Styles/styles.css";
-import curve from "../assets/images/curve.png";
+import "../../Styles/styles.css";
+import curve from "../../assets/images/curve.png";
 function CellFrequency (){
  
   return(

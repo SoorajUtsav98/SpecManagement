@@ -1,9 +1,9 @@
-import "../Styles/Header.css";
-import hamburger from "../assets/images/hamburger.jpg";
+import "../../Styles/styles.css";
+import hamburger from "../../assets/images/hamburger.jpg";
 import {useState} from 'react';
-import bell from "../assets/images/bell.jpg";
-import ticket from "../assets/images/ticket.png";
-import Sidepannel from "../Sidepannel/Sidepannel";
+import bell from "../../assets/images/bell.jpg";
+import ticket from "../../assets/images/ticket.png";
+import Sidepannel from "../../Action/Sidepannel/Sidepannel";
 
 const Header = () =>{
     const [toggleElement,setToggleElement] = useState(["arrow-up"]);

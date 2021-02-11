@@ -1,9 +1,9 @@
-import "../Styles/styles.css";
-import Communication from "./Communication/Communication";
-import slackmessage from "../assets/images/slackmessage.png";
-import rhombus from "../assets/images/rhombus.png";
-import woman from "../assets/images/woman.png";
-import man1 from "../assets/images/man1.jpg";
+import "../../Styles/styles.css";
+import Communication from "../Communications/Communication/Communication";
+import slackmessage from "../../assets/images/slackmessage.png";
+import rhombus from "../../assets/images/rhombus.png";
+import woman from "../../assets/images/woman.png";
+import man1 from "../../assets/images/man1.jpg";
 import {useState} from "react";
 
 const Communications = () =>{

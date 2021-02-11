@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import "../Styles/styles.css";
+import "../../Styles/styles.css";
 
 const Modal = () => {
     const [modee,setState] = useState(["modal1"]);   

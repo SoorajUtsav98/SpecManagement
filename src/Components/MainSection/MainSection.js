@@ -1,11 +1,11 @@
 import Overview from "../Overview/Overview";
-import "../Styles/styles.css";
-import arrow from "../assets/images/arrow.jpg";
+import "../../Styles/styles.css";
+import arrow from "../../assets/images/arrow.jpg";
 import CellFrequency from "../CellFrequency/CellFrequency";
 import Issues from "../Issues/Issues";
 import FrequencyTrend from "../FrequencyTrend/FrequencyTrend";
 import Communications from "../Communications/Communications";
-import Modal from "../Modal/Modal";
+import Modal from "../../Action/Modal/Modal";
 
 function MainSection (){
 
